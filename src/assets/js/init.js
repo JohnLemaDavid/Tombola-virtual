@@ -1,34 +1,34 @@
 $(function() {
 	startRaffleAniamtion(3);
-	
+
 	$('#example1').click(function(){
 		startRaffleAniamtion(1);
 	});
-	
+
 	$('#example2').click(function(){
 		startRaffleAniamtion(2);
 	});
-	
+
 	$('#example3').click(function(){
 		startRaffleAniamtion(3);
 	});
-	
+
 	$('#toggleSpin').click(function(){
 		$('#firstDrumHolder').raffleDrumAnimation('toggleSpin');
 	});
-	
+
 	$('#startSpin').click(function(){
 		$('#firstDrumHolder').raffleDrumAnimation('spin');
 	});
-	
+
 	$('#stopSpin').click(function(){
 		$('#firstDrumHolder').raffleDrumAnimation('stop');
 	});
-	
+
 	$('#showResult').click(function(){
 		$('#firstDrumHolder').raffleDrumAnimation('result');
 	});
-	
+
 	$('#destroy').click(function(){
 		$('#firstDrumHolder').raffleDrumAnimation('destroy');
 	});
@@ -55,13 +55,13 @@ function startRaffleAniamtion(con){
 							'raffledrumanimation/assets/ball_b_3.svg',
 							'raffledrumanimation/assets/ball_b_4.svg',
 							'raffledrumanimation/assets/ball_b_5.svg'],
-				
+
 			}
-		);	
+		);
 	}else if(con == 3){
 		$('#firstDrumHolder').raffleDrumAnimation(
 			{
-				itemImage:['raffledrumanimation/assets/boletos/Boleto1801620103TOAZA SANTACRUZHUMBERTO ELICEO005915.svg',
+				itemImage:['./raffledrumanimation/assets/boletos/Boleto1801620103TOAZA SANTACRUZHUMBERTO ELICEO005915.svg',
 				'raffledrumanimation/assets/boletos/Boleto1801620103TOAZA SANTACRUZHUMBERTO ELICEO005914.svg',
 				'raffledrumanimation/assets/boletos/Boleto1710630458FACTOS BRITOEDWIN RODOLFO005913.svg',
 				'raffledrumanimation/assets/boletos/Boleto0101314110CARPIO VELEZBLANCA YOLANDA005912.svg',
@@ -5978,10 +5978,10 @@ function startRaffleAniamtion(con){
 				'raffledrumanimation/assets/boletos/Boleto1800145458CRUZ TOBARLIDA CONSUELO000001.svg'],
 				itemWidth:25
 			}
-		);	
+		);
 		console.log("ticket");
 	}
-	
+
 	$('#firstDrumHolder').raffleDrumAnimation('spin');
 }
 
@@ -5990,32 +5990,32 @@ function raffleCallback(data){
 	switch(data.status) {
 	  case 'spinstart':
 	  	//when drum start raffle
-		
+
 		break;
-		
+
 	  case 'spinstop':
 	  	//when drum stop raffle
-		
+
 		break;
-		
+
 	  case 'result':
 	  	//when drum start show result
-		
+
 		//you can replace your result number in here
 		//$('#'+data.id+' .ticketResult .item .displayNumber').html(10);
 		console.log(ticketResult);
-		
+
 		//or you can replace your result content in here
 		//$('#'+data.id+' .ticketResult .item').html('<div>my result</div');
-		
+
 		break;
-		
+
 	  case 'resultcomplete':
 	  	//when drum show result complete
-		
+
 		break;
-		
+
 	  default:
-		
-	}	
+
+	}
 }
