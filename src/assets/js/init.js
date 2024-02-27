@@ -60,8 +60,8 @@ function startRaffleAniamtion(con){
 		);
 	}else if(con == 3){
 		$('#firstDrumHolder').raffleDrumAnimation(
-			{
-				itemImage:['./raffledrumanimation/assets/boletos/Boleto1801620103TOAZA SANTACRUZHUMBERTO ELICEO005915.svg',
+			{ 
+				itemImage:['raffledrumanimation/assets/boletos/Boleto1801620103TOAZA SANTACRUZHUMBERTO ELICEO005915.svg',
 				'raffledrumanimation/assets/boletos/Boleto1801620103TOAZA SANTACRUZHUMBERTO ELICEO005914.svg',
 				'raffledrumanimation/assets/boletos/Boleto1710630458FACTOS BRITOEDWIN RODOLFO005913.svg',
 				'raffledrumanimation/assets/boletos/Boleto0101314110CARPIO VELEZBLANCA YOLANDA005912.svg',
