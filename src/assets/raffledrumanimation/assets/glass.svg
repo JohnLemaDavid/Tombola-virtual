@@ -1,54 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="188.027px" height="106.104px" viewBox="0 0 188.027 106.104" enable-background="new 0 0 188.027 106.104"
-	 xml:space="preserve">
-<g id="glass">
-	
-		<radialGradient id="SVGID_1_" cx="265.0344" cy="-39.3289" r="96.7373" gradientTransform="matrix(1 0 0 -1.48 -171 -5.1551)" gradientUnits="userSpaceOnUse">
-		<stop  offset="0.1314" style="stop-color:#6FCFEE;stop-opacity:0"/>
-		<stop  offset="1" style="stop-color:#46B5E7"/>
-	</radialGradient>
-	<rect x="0.041" y="0" opacity="0.4" fill="url(#SVGID_1_)" enable-background="new    " width="187.986" height="106.104"/>
-</g>
-<g id="highlight">
-	
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="281.4993" y1="-171.0828" x2="312.1008" y2="-89.9478" gradientTransform="matrix(1 0 0 -1 -171 -65.397)">
-		<stop  offset="0.009" style="stop-color:#FFFFFF;stop-opacity:0"/>
-		<stop  offset="0.8032" style="stop-color:#FFFFFF;stop-opacity:0.8529"/>
-		<stop  offset="0.9402" style="stop-color:#FFFFFF"/>
-	</linearGradient>
-	<path opacity="0.2" fill="url(#SVGID_2_)" enable-background="new    " d="M151.041,0h-3.043L110.43,104.024
-		c0.778,0.54,1.696,0.89,2.688,0.982L151.041,0z"/>
-	
-		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="313.8879" y1="-121.0496" x2="355.8219" y2="-100.5795" gradientTransform="matrix(1 0 0 -1 -171 -65.397)">
-		<stop  offset="0.2156" style="stop-color:#FFFFFF;stop-opacity:0"/>
-		<stop  offset="0.9402" style="stop-color:#FFFFFF"/>
-	</linearGradient>
-	<path opacity="0.6" fill="url(#SVGID_3_)" enable-background="new    " d="M160.534,0l-37.933,105.034h15.482l37.62-104.171
-		C174.833,0.317,173.803,0,172.702,0H160.534z"/>
-</g>
-<g id="side">
-	
-		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-239.4343" y1="9.7761" x2="-144.8585" y2="44.1989" gradientTransform="matrix(0 -1 -1 0 28.4033 -139.0967)">
-		<stop  offset="0.0331" style="stop-color:#849692"/>
-		<stop  offset="0.1264" style="stop-color:#445E68"/>
-		<stop  offset="0.2648" style="stop-color:#E6F5FC"/>
-		<stop  offset="0.5959" style="stop-color:#578489"/>
-		<stop  offset="0.829" style="stop-color:#B0D1CB"/>
-		<stop  offset="0.9672" style="stop-color:#7C8F8E"/>
-	</linearGradient>
-	<rect x="0.041" y="0" opacity="0.5" fill="url(#SVGID_4_)" enable-background="new    " width="2.752" height="106.104"/>
-	
-		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-239.4353" y1="-175.4583" x2="-144.8595" y2="-141.0355" gradientTransform="matrix(0 -1 -1 0 28.4033 -139.0967)">
-		<stop  offset="0.0331" style="stop-color:#849692"/>
-		<stop  offset="0.1264" style="stop-color:#445E68"/>
-		<stop  offset="0.2648" style="stop-color:#E6F5FC"/>
-		<stop  offset="0.5959" style="stop-color:#578489"/>
-		<stop  offset="0.829" style="stop-color:#B0D1CB"/>
-		<stop  offset="0.9672" style="stop-color:#7C8F8E"/>
-	</linearGradient>
-	<rect x="185.276" y="0" opacity="0.5" fill="url(#SVGID_5_)" enable-background="new    " width="2.752" height="106.104"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 188.03 106.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Latón_pulido);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        isolation: isolate;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_2);
+        opacity: .2;
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_4-2);
+      }
+
+      .cls-3, .cls-4 {
+        opacity: .5;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_4);
+      }
+
+      .cls-5 {
+        fill: url(#Latón_pulido-4);
+      }
+
+      .cls-6 {
+        fill: url(#Latón_pulido-2);
+      }
+
+      .cls-7 {
+        fill: url(#Latón_pulido-3);
+      }
+
+      .cls-10 {
+        opacity: .64;
+      }
+
+      .cls-8 {
+        fill: url(#Degradado_sin_nombre_3);
+        opacity: .6;
+      }
+
+      .cls-9 {
+        fill: url(#Degradado_sin_nombre);
+        opacity: .4;
+      }
+    </style>
+    <radialGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" cx="268.05" cy="414.02" fx="268.05" fy="414.02" r="99.59" gradientTransform="translate(-166.41 -540.78) scale(.97 1.43)" gradientUnits="userSpaceOnUse">
+      <stop offset=".13" stop-color="#6fcfee" stop-opacity="0"/>
+      <stop offset="1" stop-color="#46b5e7"/>
+    </radialGradient>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="281.53" y1="596.03" x2="312.06" y2="515.07" gradientTransform="translate(-171 -490.59)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".85"/>
+      <stop offset=".94" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_3" data-name="Degradado sin nombre 3" x1="313.89" y1="546.11" x2="355.77" y2="525.66" gradientTransform="translate(-171 -490.59)" gradientUnits="userSpaceOnUse">
+      <stop offset=".22" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".94" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1="-445.19" y1="303.34" x2="-350.84" y2="269" gradientTransform="translate(-284.79 -345.1) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#849692"/>
+      <stop offset=".13" stop-color="#445e68"/>
+      <stop offset=".26" stop-color="#e6f5fc"/>
+      <stop offset=".6" stop-color="#578489"/>
+      <stop offset=".83" stop-color="#b0d1cb"/>
+      <stop offset=".97" stop-color="#7c8f8e"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_4-2" data-name="Degradado sin nombre 4" x1="-445.19" y1="488.61" x2="-350.84" y2="454.28" xlink:href="#Degradado_sin_nombre_4"/>
+    <linearGradient id="Latón_pulido" data-name="Latón pulido" x1="28.08" y1="365.1" x2="182.34" y2="421.24" gradientTransform="translate(-11.34 497.94) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#efc981"/>
+      <stop offset=".19" stop-color="#f2d78f"/>
+      <stop offset=".41" stop-color="#f8f0e4"/>
+      <stop offset=".73" stop-color="#c58511"/>
+      <stop offset=".9" stop-color="#e4b76c"/>
+      <stop offset=".95" stop-color="#eec687"/>
+    </linearGradient>
+    <linearGradient id="Latón_pulido-2" data-name="Latón pulido" x1="24.39" y1="467.29" x2="186.32" y2="526.23" xlink:href="#Latón_pulido"/>
+    <linearGradient id="Latón_pulido-3" data-name="Latón pulido" x1="-29.65" y1="122.46" x2="26.42" y2="-3.21" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#Latón_pulido"/>
+    <linearGradient id="Latón_pulido-4" data-name="Latón pulido" x1="155.63" y1="122.46" x2="211.69" y2="-3.21" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#Latón_pulido"/>
+  </defs>
+  <g class="cls-10">
+    <g id="glass">
+      <rect class="cls-9" width="188.03" height="105.84"/>
+    </g>
+    <g id="highlight">
+      <path class="cls-2" d="m151.03,0h-3.04l-37.58,103.76c.78.54,1.7.89,2.69.98L151.03,0Z"/>
+      <path class="cls-8" d="m160.53,0l-37.94,104.77h15.49L175.7.86c-.87-.54-1.9-.86-3-.86h-12.17Z"/>
+    </g>
+    <g id="side">
+      <rect class="cls-4" width="2.75" height="105.84"/>
+      <rect class="cls-3" x="185.27" width="2.75" height="105.84"/>
+    </g>
+  </g>
+  <rect class="cls-1" x="7.01" y="103.44" width="173.72" height="2.67"/>
+  <rect class="cls-6" x="2.75" width="182.52" height="2.37"/>
+  <rect class="cls-7" width="2.75" height="105.84"/>
+  <rect class="cls-5" x="185.27" width="2.75" height="105.84"/>
 </svg>
