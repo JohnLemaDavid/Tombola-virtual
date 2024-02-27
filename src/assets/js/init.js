@@ -61,13 +61,11 @@ function startRaffleAniamtion(con){
 	}else if(con == 3){
 		$('#firstDrumHolder').raffleDrumAnimation(
 			{
-				itemImage:['/assets/raffledrumanimation/assets/boletos/Boleto1801620103TOAZA SANTACRUZHUMBERTO ELICEO005915.svg',
-				'/assets/raffledrumanimation/assets/boletos/Boleto1801620103TOAZA SANTACRUZHUMBERTO ELICEO005914.svg',
-				'/assets/raffledrumanimation/assets/boletos/Boleto1710630458FACTOS BRITOEDWIN RODOLFO005913.svg',
-				'/assets/raffledrumanimation/assets/boletos/Boleto0101314110CARPIO VELEZBLANCA YOLANDA005912.svg',
-				'/assets/raffledrumanimation/assets/boletos/Boleto1850549237TOALOMBO CAIZAPEDRO ALEXIS005911.svg',
-				'/assets/raffledrumanimation/assets/boletos/Boleto1702984319NAVARRETE SANCHEZMARIA ETELVINA005910.svg',
-				'/assets/raffledrumanimation/assets/boletos/Boleto1702984319NAVARRETE SANCHEZMARIA ETELVINA005909.svg',],
+				itemImage:['/assets/raffledrumanimation/assets/ticket4prueba.svg',
+				'/assets/raffledrumanimation/assets/ticket4prueba.svg',
+				'/assets/raffledrumanimation/assets/ticket4prueba.svg',
+				'/assets/raffledrumanimation/assets/ticket4prueba.svg',
+				'/assets/raffledrumanimation/assets/ticket4prueba.svg',],
 				itemWidth:25
 			}
 		);
