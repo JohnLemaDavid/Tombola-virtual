@@ -1,4 +1,4 @@
-import { Component,OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -15,8 +15,8 @@ export class ListTombolaComponent {
   errorMessage: string = '';
 
   guardarDatos() {
-    if (this.title && this.ganadores && this.suplentes && this.participants) {
-      // Todos los campos están llenos, guardar en localStorage
+    if (this.title && this.ganadores > 0 && this.suplentes >= 0 && this.participants !== '') {
+      // Todos los campos necesarios están llenos y en los rangos correctos, guardar en localStorage
       localStorage.setItem('title', this.title);
       localStorage.setItem('ganadores', this.ganadores.toString());
       localStorage.setItem('suplentes', this.suplentes.toString());
@@ -26,7 +26,7 @@ export class ListTombolaComponent {
       this.router.navigate(['games/rifa']);
 
     } else {
-      this.errorMessage = 'Por favor, complete todos los campos antes de continuar.';
+      this.errorMessage = 'Por favor, complete todos los campos obligatorios y asegúrese de que los valores de ganadores y suplentes sean válidos antes de continuar.';
     }
   }
 
