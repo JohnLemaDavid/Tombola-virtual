@@ -6,6 +6,7 @@ import { LayoutpageComponent } from './tombola/layoutpage/layoutpage.component';
 import { ListTombolaComponent } from './tombola/list-tombola/list-tombola.component';
 import { RifaTombolaComponent } from './tombola/rifa-tombola/rifa-tombola.component';
 import { FormsModule } from '@angular/forms';
+import { ModalpremioComponent } from './tombola/modalpremio/modalpremio.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { FormsModule } from '@angular/forms';
     LayoutpageComponent,
     ListTombolaComponent,
     RifaTombolaComponent,
+    ModalpremioComponent,
   ],
   imports: [
     CommonModule,

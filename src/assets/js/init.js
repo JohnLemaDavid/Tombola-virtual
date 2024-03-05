@@ -77,6 +77,8 @@ function startRaffleAniamtion(con){
 
 function raffleCallback(data){
 	console.log(data);
+  console.log(data.status);
+
 	switch(data.status) {
 	  case 'spinstart':
 		break;

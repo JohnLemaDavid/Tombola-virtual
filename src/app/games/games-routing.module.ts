@@ -5,16 +5,16 @@ import { ListTombolaComponent } from './tombola/list-tombola/list-tombola.compon
 import { RifaTombolaComponent } from './tombola/rifa-tombola/rifa-tombola.component';
 
 const routes: Routes = [
-{
-  path:'',
-  component:LayoutpageComponent,
-  children:[
-    {path:'config',component:ListTombolaComponent},
-    {path:'rifa',component:RifaTombolaComponent},
-    {path:'**',redirectTo:'login'},
-  ]
-}
-
+  {
+    path: '',
+    component: LayoutpageComponent,
+    children: [
+      { path: 'config', component: ListTombolaComponent },
+      { path: 'rifa', component: RifaTombolaComponent, runGuardsAndResolvers: 'always' },
+      {path:'',redirectTo:'config',pathMatch:'full'},
+      { path: '**', redirectTo: 'login' },
+    ]
+  }
 ];
 
 @NgModule({

@@ -19,12 +19,8 @@
               <label for="suplentes"># ANULADOS</label>
               <input type="number" class="form-control" id="suplentes" name="suplentes" min="0" max="15" placeholder="Ingrese la cantidad de suplentes" [(ngModel)]="suplentes">
             </div>
-            <div class="form-group">
-              <label for="participants">Participantes</label>
-              <textarea id="participants" class="form-control" name="participants" rows="10" [(ngModel)]="participants"></textarea>
-            </div>
             <div class="text-center mt-4">
-              <button class="btn btn-primary" (click)="guardarDatos()">Comenzar</button>
+              <button type="button" class="btn btn-primary" (click)="guardarDatos()">Comenzar</button>
             </div>
             <div class="text-danger mt-2" *ngIf="errorMessage">{{ errorMessage }}</div>
           </form>
