@@ -5,28 +5,24 @@ import { Component } from '@angular/core';
   templateUrl: './rifa-tombola.component.html',
 })
 export class RifaTombolaComponent {
-  showResult: boolean=false;
+  showResult: boolean = false;
 
-  constructor() {
-  }
+  constructor() {}
 
   startSpin() {
     const pageReloaded = localStorage.getItem('pageReloaded');
-    const control = localStorage.getItem('showResult');
 
-    if (!pageReloaded && !control) {
+    if (!pageReloaded) {
       window.location.reload();
       localStorage.setItem('pageReloaded', 'true');
-      localStorage.setItem('showResult', 'true');
-      this.showResult = true;
-    } else if (pageReloaded && control) {
-      localStorage.setItem('showResult', 'true');
-      this.showResult = true;
     }
+
+    this.showResult = true;
+    localStorage.removeItem('showResult');
   }
 
   Result() {
     this.showResult = false;
-    localStorage.setItem('showResult', 'false');
+    localStorage.setItem('showResult', 'true');
   }
 }

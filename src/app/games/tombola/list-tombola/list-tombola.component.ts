@@ -28,8 +28,6 @@ export class ListTombolaComponent implements OnInit {
       this.gamesService.cantidadGanadores = this.ganadores;
       this.gamesService.cantidadSuplentes = this.suplentes;
       this.errorMessage = '';
-      localStorage.setItem('showResult', 'false');
-      localStorage.setItem('pageReloaded', 'false');
       this.router.navigateByUrl('games/rifa')
     } else {
       this.errorMessage = 'Por favor, complete todos los campos correctamente.';
