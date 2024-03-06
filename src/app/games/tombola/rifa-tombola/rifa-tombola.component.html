@@ -30,16 +30,26 @@
               </div>
           </div>
 
+
+
           <div class="action">
-              <!--<button id="toggleSpin" class="site">Toggle Spin</button>-->
-              <button id="startSpin" class="site">Start Spin</button>
-              <button id="stopSpin" class="site">Stop Spin</button>
-              <button id="showResult" class="site">Show Result</button>
-              <br/><br/>
-              <!--<button id="example1" class="site">Example 1</button>
+            <!-- Botón GO -->
+            <button type="button" id="startSpin" class="site" (click)="startSpin()" [disabled]="showResult" (keydown.enter)="startSpin()" autofocus>GO</button>
+            <!-- Botón Show Result -->
+            <button type="button" id="showResult" class="site" (click)="Result()" [disabled]="!showResult" (keydown.enter)="Result()" autofocus>Show Result</button>
+          </div>
+
+
+
+
+
+
+
+              <!-- <button id="example1" class="site">Example 1</button>
               <button id="example2" class="site">Example 2</button>
-              <button id="example3" class="site">Example 3</button>-->
-              <button id="destroy" class="site">Destroy</button>
+              <button id="example3" class="site">Example 3</button> -->
+              <!-- <button id="destroy" class="site">Destroy</button>
+
 
           </div>
        </div>
